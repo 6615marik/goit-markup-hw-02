@@ -1,0 +1,66 @@
+:root{
+--main-text: #757575;
+--text-header:#212121;
+--text-accent:#2196F3;
+}
+body{
+    background-color: #F5F5F5;  
+}
+
+ul{
+    list-style: none;
+}
+
+.logo {
+    color: black;
+}
+/* Site nav  */
+.nav-site,
+.nav-site-link{
+ color: var(--text-header);
+ 
+}
+
+.nav-site , .nav-site-link:hover ,
+.nav-site , .nav-site-link:focus {
+
+color: var(--text-accent);
+}
+
+.nav-site-link.current{
+color: var(--text-accent);
+}
+/* Nav-contact */
+
+.nav-contacts , .nav-contacts-tel {
+ color: var(--text-header);
+}
+
+.nav-contacts, .nav-contacts-tel:hover ,
+.nav-contacts, .nav-contacts-tel:focus {
+    color: var(--text-accent);
+}
+/* hero */
+/* .hero{
+position: absolute;
+    width: 1600px;
+    height: 600px;
+    background: #2F303A
+}
+h1{
+    color: #FFFFFF;
+    position: absolute;
+   
+   */     
+
+.hero-button{
+background: var(--text-accent);
+    color: #FFFFFF;} 
+
+    /* benifits */
+.title-benifits{
+color: var(--text-header);
+  }
+  .text-benifits {
+    color: var(--main-text);
+  }
