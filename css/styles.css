@@ -5,14 +5,29 @@
 }
 body{
     background-color: #F5F5F5;  
+    color: var(--main-text);
+    font-family: 'Roboto' , sans-serif;
+    letter-spacing: 0.03em;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        margin-top: 24px;
+        margin-left: 215px;
 }
 
-ul{
-    list-style: none;
-}
+ul{list-style: none;}
 
+a{text-decoration: none;}
+cursor:pointer;
 .logo {
+    text-decoration: none;
     color: black;
+    font-family: 'Raleway';
+    letter-spacing: 0.03em;
+}
+
+.accent{
+color: var(--text-accent);
 }
 /* Site nav  */
 .nav-site,
@@ -64,3 +79,21 @@ color: var(--text-header);
   .text-benifits {
     color: var(--main-text);
   }
+
+
+
+
+  /* PORTFOLIO */
+.filtr-tab{
+color: var(--text-header);
+background-color: F5F4FA;
+  }
+
+.filtr-tab:hover,
+.filtr-tab:focus {
+      background-color: var(--text-accent);
+      color: #FFFFFF;}
+
+.filtr-tab.current{
+background-color: var(--text-accent);
+color: #FFFFFF;}

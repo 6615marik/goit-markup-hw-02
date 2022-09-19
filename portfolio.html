@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Завдання1</title>
+    <title>Завдання1</title><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <header>
-        <a class="logo" href="">WebStudio</a>
+        <a class="logo" href=""><span class="accent">Web</span>Studio</a>
         <nav class="nav-site">
             <ul>
                 <li><a href="./index.html" class="nav-site-link ">Студія</a></li>
@@ -30,83 +32,73 @@
     </header>
 
     <main>
-        <section class="hero">
-            <h1>Ефективні рішення для вашого бізнесу</h1>
-            <button type="button" class="hero-button">Замовити послугу</button>
-
-        </section>
-
-
-        <section class="benifits">
-            <h2>Наші переваги</h2>
-            <ul>
-                <li>
-                    <h3 class="title-benifits">УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p class="text-benifits">Ідейні міркування, і навіть початок повсякденної роботи з формування
-                        позиції.</p>
-                </li>
-                <li>
-                    <h3 class="title-benifits">ПУНКТУАЛЬНІСТЬ</h3>
-                    <p class="text-benifits">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
-                    </p>
-                </li>
-                <li>
-                    <h3 class="title-benifits">ПЛАНУВАННЯ</h3>
-                    <p class="text-benifits">Так само консультація з широким активом значною мірою зумовлює.</p>
-                </li>
-                <li>
-                    <h3 class="title-benifits">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p class="text-benifits">Значимість цих проблем настільки очевидна, що реалізація планових завдань.
-                    </p>
-                </li>
-            </ul>
-        </section>
-
+        <ul class="filtr">
+            <li><button type="button" class="filtr-tab current">Усі</button></li>
+            <li><button type="button" class="filtr-tab">Веб-сайти</button></li>
+            <li><button type="button" class="filtr-tab">Додатки</button></li>
+            <li><button type="button" class="filtr-tab">Дизайн</button></li>
+            <li><button type="button" class="filtr-tab">Маркетинг</button></li>
+        </ul>
         <section>
-            <h2>Чим ми займаємося</h2>
-            <ul>
-                <li><img src="./images/box1.jpg" alt="box1" width="370"></li>
-                <li><img src="./images/box2.jpg" alt="box2" width="370"></li>
-                <li><img src="./images/box3.jpg" alt="box3" width="370"></li>
-            </ul>
+           <ul class="content">
+                <li><a href=""><img src="./images/portfolio/1.jpg" alt="фщто-ноутбук" width="370">
+                        <h2>Технокряк</h2>
+                        <p>Веб-сайт</p>
+                    </a>
+                </li>
+                <li><a href=""><img src="./images/portfolio/2.jpg" alt="баскетболісти" width="370">
+                        <h2>Постер New Orlean vs Golden Star</h2>
+                        <p>Дизайн</p>
+                    </a>
+                </li>
+                <li><a href=""><img src="./images/portfolio/3.jpg" alt="морська їжа" width="370">
+                        <h2>Ресторан Seafood</h2>
+                        <p>Додаток</p>
+                    </a>
+                </li>
+                <li><a href=""><img src="./images/portfolio/4.jpg" alt="навушники" width="370">
+                        <h2>Проєкт Prime</h2>
+                        <p>Маркетинг</p>
+                    </a>
+                </li>
+                <li><a href=""><img src="./images/portfolio/5.jpg" alt="коробки" width="370">
+                        <h2>Проєкт Boxes</h2>
+                        <p>Додаток</p>
+                    </a>
+                </li>
+                <li><a href=""><img src="./images/portfolio/6.jpg" alt="монітор" width="370">
+                        <h2>Inspiration has no Borders</h2>
+                        <p>Веб-сайт</p>
+                    </a>
+                </li>
+                <li><a href=""><img src="./images/portfolio/7.jpg" alt="книга" width="370">
+                        <h2>Видання Limited Edition</h2>
+                        <p>Дизайн</p>
+                    </a>
+                </li>
+                <li><a href=""><img src="./images/portfolio/8.jpg" alt="лейба" width="370">
+                        <h2>Проєкт LAB</h2>
+                        <p>Маркетинг</p>
+                    </a>
+                </li>
+                <li><a href=""><img src="./images/portfolio/9.jpg" alt="єкран ноутбука з руками">
+                        <h2>Growing Business</h2>
+                        <p>Додаток</p>
+                    </a>
+                </li>
+           </ul> 
         </section>
-
-        <section>
-            <h2>Наша команда</h2>
-            <ul>
-                <li>
-                    <img src="images/img.jpg" alt="ihor" width="270">
-                    <h3>Ігор Дем'яненко</h3>
-                    <p>Product Designer</p>
-                </li>
-                <li>
-                    <img src="images/img(2).jpg" alt="olga" width="270">
-                    <h3>Ольга Рєпіна</h3>
-                    <p>Frontend Developer</p>
-                </li>
-                <li>
-                    <img src="images/img(2).jpg" alt="mikola" width="270">
-                    <h3>Микола Тарасов</h3>
-                    <p>Marketing</p>
-                </li>
-                <li>
-                    <img src="images/img(3).jpg" alt="mihaylo" width="270">
-                    <h3>Михайло Єрмаков</h3>
-                    <p>UI Designer</p>
-                </li>
-            </ul>
-        </section>
+        
     </main>
 
 
     <footer>
-        <a href="">WebStudio</a>
+        <a class="logo" href=""><span class="accent">Web</span>Studio</a>
         <address>
             <ul>
-                <li><a href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42732700000001%2C30.538092&z=17"
-                        target="_blank" rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a></li>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111"> +38 096 111 11 11</a></li>
+                <li><a href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42732700000001%2C30.538092&z=17"target="_blank" rel="noopener noreferrer" class="nav-contacts-tel">м. Київ, пр-т Лесі Українки, 26</a></li>
+                <li><a href="mailto:info@devstudio.com" class="nav-contacts-tel">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="nav-contacts-tel"> +38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>
