@@ -2,44 +2,76 @@
 --main-text: #757575;
 --text-header:#212121;
 --text-accent:#2196F3;
+--text-white:#FFFFFF;
+
 }
 body{
-    background-color: #F5F5F5;  
+    background-color:#FFFFFF 
     color: var(--main-text);
-    font-family: 'Roboto' , sans-serif;
-    letter-spacing: 0.03em;
+      font-family: 'Roboto' , sans-serif;
+      letter-spacing: 0.03em;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.2;
-        margin-top: 24px;
-        margin-left: 215px;
+        width: 1600px;}
+
+ /* footer */
+ .footer{
+  position: absolute;
+    background: #2F303A;
+    width: 1600px;
+ }
+.address-office{
+color: var(--text-white);
+font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
+.address-tel-emal{
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
 ul{list-style: none;}
 
 a{text-decoration: none;}
-cursor:pointer;
+
 .logo {
     text-decoration: none;
     color: black;
     font-family: 'Raleway';
-    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.logo-footer {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 .accent{
 color: var(--text-accent);
 }
+
 /* Site nav  */
 .nav-site,
 .nav-site-link{
- color: var(--text-header);
- 
+color: var(--text-header);
 }
 
 .nav-site , .nav-site-link:hover ,
-.nav-site , .nav-site-link:focus {
-
+.nav-site , .nav-site-link:focus{
 color: var(--text-accent);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .nav-site-link.current{
@@ -47,47 +79,104 @@ color: var(--text-accent);
 }
 /* Nav-contact */
 
-.nav-contacts , .nav-contacts-tel {
- color: var(--text-header);
+.nav-contacts , .nav-contacts-tel{
+color: var(--main-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .nav-contacts, .nav-contacts-tel:hover ,
 .nav-contacts, .nav-contacts-tel:focus {
-    color: var(--text-accent);
+color: var(--text-accent);
 }
 /* hero */
-/* .hero{
+.hero-start{
 position: absolute;
-    width: 1600px;
-    height: 600px;
-    background: #2F303A
+ background: #2F303A; 
 }
 h1{
-    color: #FFFFFF;
-    position: absolute;
-   
-   */     
+  color: var(--text-white);
+  font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+}  
 
 .hero-button{
+cursor: pointer;
 background: var(--text-accent);
-    color: #FFFFFF;} 
+  color: #FFFFFF;
+   font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+  
+}
 
-    /* benifits */
+/* benifits */
+.benifits{
+  padding-top: 94px;
+
+}
+.invisible{
+  color: #F5F5F5;;
+}
+
+
 .title-benifits{
 color: var(--text-header);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
   }
   .text-benifits {
     color: var(--main-text);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.8;
   }
 
+/* advances */
 
+  .header-two{
+    color: var(--text-header);
+    font-weight: 700;
+      font-size: 36px;
+      line-height: 1.16;
+      text-align: center;
+  }
+
+/* team */
+.team{
+  background: #F5F4FA;
+}
+
+.name-worker{
+color: var(--text-header);
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;}
+
+
+.team-job{
+color: var(--main-text);
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;}
 
 
   /* PORTFOLIO */
 .filtr-tab{
 color: var(--text-header);
-background-color: F5F4FA;
-  }
+background-color: F5F4FA;}
 
 .filtr-tab:hover,
 .filtr-tab:focus {
@@ -97,3 +186,17 @@ background-color: F5F4FA;
 .filtr-tab.current{
 background-color: var(--text-accent);
 color: #FFFFFF;}
+
+/* content */
+
+.name-content{
+color: var(--text-header);
+  font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.06em;}
+.name-projects{
+color: var(--main-text);
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;}
