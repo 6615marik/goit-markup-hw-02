@@ -20,13 +20,15 @@ body{
     background: #2F303A;
     width: 1600px;
  }
- 
- .nav-contacts-footer , .address-office,
+
+  
+ .nav-contacts-footer ,
  .address-tel-emal:hover,
- .nav-contacts-footer, .address-office,
+ .nav-contacts-footer, 
  .address-tel-emal:focus {
   color: var(--text-accent);
  }
+
 
 .address-office{
 color: var(--text-white);
@@ -35,6 +37,9 @@ font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
+.address-office:hover,
+.address-office:focus {
+  color: var(--text-accent);}
 .address-tel-emal{
   font-style: normal;
   font-weight: 400;
@@ -105,7 +110,7 @@ color: var(--text-accent);
 .hero-start{
  background: #2F303A; 
 }
-h1{
+.hero-start-header{
   color: var(--text-white);
   font-weight: 900;
     font-size: 44px;
